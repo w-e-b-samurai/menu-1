@@ -82,7 +82,7 @@ header {
 
 .header-nav-btn__exid {
 	position: fixed;
-	top: 80px;
+	top: -100vh;
 	right: 4%;
 	opacity: 0;
 	-webkit-transition: opacity 0.8s ease, -webkit-transform 0.6s ease;
@@ -219,6 +219,7 @@ header input[id="header-nav-btn"]:checked ~ nav .menu {
 }
 
 header input[id="header-nav-btn"]:checked ~ .header-nav-btn__exid {
+	top: 80px;
 	opacity: 1;
 }
 
